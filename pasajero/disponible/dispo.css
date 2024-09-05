@@ -1,86 +1,58 @@
+/* dispo.css */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #f8f9fa;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  color: #333;
+	font-family: 'Arial', sans-serif;
+	background-color: #eaf4ff; /* Fondo azul muy claro */
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
 }
 
 h2 {
-  font-size: 2rem;
-  color: #222;
-  margin-bottom: 1rem;
-  text-align: center;
+	color: #003d66; /* Azul oscuro */
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 p {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-}
-
-strong {
-  font-weight: bold;
+	color: #003d66; /* Azul oscuro */
+	margin: 10px 0;
+	font-size: 18px;
 }
 
 div {
-  margin-bottom: 1.5rem;
-  text-align: center;
-  width: 100%;
-  max-width: 400px;
+	margin: 10px 0;
+	text-align: center;
 }
 
 label {
-  display: block;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  color: #333;
+	color: #005999; /* Azul medio */
+	font-weight: bold;
+	margin-right: 10px;
 }
 
-input[type="text"] {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 1rem;
-  transition: border-color 0.2s ease-in-out;
-}
-
-input[type="text"]:focus {
-  outline: none;
-  border-color: #000;
+input[type='text'] {
+	padding: 8px;
+	margin-right: 10px;
+	border: 2px solid #99ccff; /* Borde azul claro */
+	border-radius: 4px;
+	font-size: 14px;
 }
 
 button {
-  width: 100%;
-  padding: 0.75rem;
-  background-color: #000;
-  color: white;
-  font-size: 1rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+	background-color: #007acc; /* Azul medio */
+	color: #ffffff;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #333;
-}
-
-@media (max-width: 768px) {
-  h2 {
-      font-size: 1.5rem;
-  }
-
-  p {
-      font-size: 1rem;
-  }
-
-  button {
-      font-size: 0.9rem;
-  }
+	background-color: #005999; /* Azul oscuro al pasar el mouse */
 }

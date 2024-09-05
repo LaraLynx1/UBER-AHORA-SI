@@ -1,77 +1,52 @@
+/* nuevo.css */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #f8f9fa;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  color: #333;
+	font-family: 'Arial', sans-serif;
+	background-color: #f0faff; /* Fondo azul muy claro */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 }
 
 h1 {
-  font-size: 2rem;
-  color: #222;
-  margin-bottom: 1.5rem;
-  text-align: center;
+	color: #003d66; /* Azul más oscuro */
+	margin-bottom: 20px;
+	text-align: center;
 }
-
 
 #info-container {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  width: 100%;
+	background-color: #ffffff; /* Fondo blanco */
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 350px;
+	text-align: center;
 }
-
 
 h2 {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.5rem;
+	color: #005999; /* Azul medio */
+	margin-bottom: 10px;
 }
 
-
-#passenger-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 20px;
 }
 
-#passenger-list li {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #ddd;
+li {
+	background-color: #e6f2ff; /* Fondo azul claro */
+	margin: 5px 0;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid #b3d9ff; /* Borde azul claro */
 }
-
-#passenger-list li:last-child {
-  border-bottom: none;
-}
-
 
 p {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  #info-container {
-    padding: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
+	color: #003d66; /* Azul oscuro */
+	margin: 5px 0;
+	font-weight: bold;
 }
