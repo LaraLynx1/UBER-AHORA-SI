@@ -13,7 +13,7 @@ document.getElementById('pasajeroForm').addEventListener('submit', function (eve
 
 		socket.on('conductorInfo', (data) => {
 			const { name, plate } = data;
-			window.location.href = `http://127.0.0.1:3000/disponible/dispo.html`;
+			window.location.href = `http://127.0.0.1:3000/disponible/disponible.html`;
 		});
 	} else {
 		alert('Por favor, ingresa tu nombre.');
