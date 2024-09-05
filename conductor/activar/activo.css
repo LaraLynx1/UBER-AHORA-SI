@@ -1,80 +1,47 @@
-/* Estilos generales */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #f8f9fa;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  color: #333;
+	font-family: 'Arial', sans-serif;
+	background-color: #e0f7ff; /* Fondo azul claro */
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 h1 {
-  font-size: 2rem;
-  color: #222;
-  margin-bottom: 2rem;
-  text-align: center;
+	color: #003d66; /* Azul más oscuro */
+	margin-bottom: 30px;
+	text-align: center;
 }
 
-/* Contenedor de botones */
 .button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  max-width: 500px;
-  width: 100%;
+	display: flex;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+#results {
+	background-color: #ffffff; /* Fondo blanco */
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	text-align: center;
 }
 
 button {
-  width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-  margin: 0.5rem 0;
+	background-color: #007acc; /* Azul medio */
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s;
 }
 
-/* Estilo para el botón de activar */
-button.activate {
-  background-color: #28a745;
-  /* Verde */
-  color: white;
-}
-
-button.activate:hover {
-  background-color: #218838;
-}
-
-/* Estilo para el botón de eliminar */
-button.delete {
-  background-color: #dc3545;
-  /* Rojo */
-  color: white;
-}
-
-button.delete:hover {
-  background-color: #c82333;
-}
-
-/* Resultados */
-#results {
-  width: 100%;
-  max-width: 600px;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  button {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
+button:hover {
+	background-color: #005999; /* Azul más oscuro al pasar el mouse */
 }

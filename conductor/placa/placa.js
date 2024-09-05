@@ -17,6 +17,6 @@ document.getElementById('vehicleForm').addEventListener('submit', function (even
 
 		window.location.href = 'http://127.0.0.1:3001/activar/active.html';
 	} else {
-		alert('Por favor, ingresa el número de placa.');
+		alert('ingresa el número de placa.');
 	}
 });
